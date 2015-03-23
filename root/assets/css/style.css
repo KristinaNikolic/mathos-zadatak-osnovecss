@@ -72,3 +72,34 @@ body{
 .nav ul li a:hover, .nav ul li a.selected, .nav ul li a:active, .nav ul li a:focus {
 	background-color: #bbbbbb;
 }
+
+.header ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header ul li{
+	display: block;
+	width: 100%;
+	padding: 2%;
+}
+
+.header ul li a{
+	display: block;
+	width: 100%;
+	padding: 1em 2em;
+	color: black;
+	background-color: #bbbbbb;
+	font-weight: bold;
+}
+
+.header ul li a:link, .header ul li a:visited{
+	text-decoration: none;
+	font-variant: small-caps;
+}
+
+.header ul li a:hover, .header ul li a.selected, .header ul li a:active, .header ul li a:focus{
+	background-color: #aaaaaa;
+	color: white;
+}
