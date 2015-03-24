@@ -109,3 +109,70 @@ h1{
 	background-color: #5593ca;
 	color: white;
 }
+
+.forma ul{
+	width: 60%;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size : 1.2em;
+}
+
+.forma ul li{
+	padding: 2%;
+	position: relative;
+}
+
+.forma label{
+	width: 30%;
+	display: inline-block;
+	float: left;
+}
+
+.forma input{
+	height: 2em;
+	width: 50%;
+	border: 1px solid #5593ca;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+	padding: 1%;
+}
+
+.forma button{
+	width: 25%;
+	height: 2em;
+	border: 1px solid;
+	border-radius: 3px;
+	-webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+	padding: 1%;
+	text-align: center;
+}
+
+.forma .accept{
+	margin-left:30%;
+	background-color: #66cc33;
+	border-color: #66cc33;
+}
+
+.forma .decline{
+	background-color: #ff3333;
+	border-color: #ff3333;
+}
+
+.forma input:focus, .forma input:active{
+	border: 2px solid #4682b4;
+}
+
+.forma .accept:focus, .forma .accept:active, .forma .accept.selected{
+	border: 2px solid green;
+}
+
+.forma .decline:focus, .forma .decline:active, .forma .decline.selected{
+	border: 2px solid red;
+}
